@@ -13,6 +13,13 @@ public class ParkedCar{
         licenseNumber=license;
         minutesParked=minutes;
     }
+    public ParkedCar(){
+        make="";
+        model="";
+        color="";
+        licenseNumber="";
+        minutesParked=0;
+    }
     public void setMake(String ma){
         make=ma;
     }
